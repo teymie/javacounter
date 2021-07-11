@@ -1,0 +1,61 @@
+body {
+  height: 100vh;
+  text-align: center;
+  font-family: sans-serif;
+
+  background: url(./images/tope.jpg) center/cover no-repeat;
+}
+.part {
+  border-radius: beige 2px;
+  display: inline-block;
+  justify-content: center;
+  height: 450px;
+  background-color: rgb(243, 192, 97);
+  width: 300px;
+  margin-top: 0px;
+  background: url(./images/tope.jpg) center/cover no-repeat;
+}
+.whole {
+  text-align: center;
+  display: inline-block;
+  justify-content: center;
+  height: 450px;
+  box-shadow: 10px;
+  width: 300px;
+  margin-top: 100px;
+  border: 2px solid rgb(247, 245, 245);
+  box-shadow: 2px 6px 6px 1px black;
+}
+#first {
+  text-align: center;
+  color: white;
+  padding-top: 13px;
+}
+#counter {
+  text-align: center;
+  color: rgb(17, 179, 17);
+  font-size: 100px;
+  margin: 0.4em 0;
+}
+#lower {
+  text-align: center;
+  background-color: rgb(41, 41, 88);
+  color: white;
+  padding: 5px;
+  border-radius: 10px solid;
+  box-shadow: 1px 3px 2px 1px black;
+  cursor: pointer;
+}
+#higher {
+  text-align: center;
+  background-color: rgb(41, 41, 88);
+  color: white;
+  padding: 5px;
+  border-radius: 20px solid;
+  box-shadow: 1px 3px 2px 1px black;
+  cursor: pointer;
+}
+img {
+  width: 2em;
+  height: 2em;
+}
